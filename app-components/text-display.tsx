@@ -1,0 +1,42 @@
+"use client";
+import { AnimatePresence, motion } from "motion/react";
+import { useEffect, useState } from "react";
+
+const TextDisplay = () => {
+  const text = [
+  "React.js & Next.js Developer",
+  "Performance Optimization & SEO",
+  "2+ Years Experience",
+  "Open to Opportunities",
+  "LeetCode Enthusiast"
+];
+
+  const [currIdx, setCurrIdx] = useState<number>(0);
+
+  useEffect(() => {
+      const interval = setTimeout(() => {
+        setCurrIdx((currIdx + 1) % text.length);
+      }, 3000);
+      return () => clearTimeout(interval);
+  }, [currIdx, text.length]);
+
+
+  return (
+    <div className="relative h-8 overflow-hidden p-4 border md:border-l-0 dark:border-zinc-700 flex items-center">
+        <AnimatePresence>
+            <motion.p
+                key={currIdx}
+                initial={{ opacity: 0, y: -20, filter: "blur(3px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                exit={{ opacity: 0, y: 20, filter: "blur(3px)" }}
+                transition={{ duration: 0.8, ease: "backInOut" }}
+                className="absolute"
+            >
+                {text[currIdx]}
+            </motion.p>
+        </AnimatePresence>
+    </div>
+  )
+}
+
+export default TextDisplay

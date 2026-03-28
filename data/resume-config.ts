@@ -17,7 +17,7 @@ export const personalInfo = {
 export const socialLinks = [
   {
     name: "GitHub",
-    link: "https://github.com/nigamabhishek1502", // Placeholder based on email
+    link: "https://github.com/Aryan972", // Placeholder based on email
     icon: "Github", // lucide-react icon name
   },
   {
@@ -26,9 +26,9 @@ export const socialLinks = [
     icon: "Linkedin",
   },
   {
-    name: "Gmail",
-    link: "mailto:nigamabhishek1502@gmail.com",
-    icon: "Mail",
+    name: "LeetCode",
+    link: "https://leetcode.com/u/aryan972/",
+    icon: "LeetCode",
   },
 ];
 
@@ -36,13 +36,16 @@ export const socialLinks = [
 export const aboutMe = {
   creatorProject: {
     name: "Collab Canvas",
-    link: "https://github.com", // Please update with your live/github link
+    link: "https://collab-canvas-weld.vercel.app/", //live/github link
   },
   intro:
-    "Software Engineer with 2.3+ years of experience as a Frontend Developer building scalable and responsive web applications,",
+    "Software Engineer with 2.3+ years of experience building scalable, high-performance, and responsive web applications. Specialized in React.js and Next.js, with a strong focus on performance optimization, accessibility, and clean system design.",
+
   focusArea: "frontend",
+
   focusDescription:
-    "Proficient in modern frontend (React.js, Next.js) with focus on performance, accessibility, and system design. Experienced in backend (Node.js, REST APIs) and workflow automation.",
+    "Along with frontend development, I have hands-on experience with backend technologies such as Node.js and REST APIs. I hold a Master's Degree(M.Tech) in Computer Science, solved 350+ LeetCode problems, and filed a U.S. patent for AI/ML-driven cloud optimization systems.",
+
   keyTechs: [
     { name: "React", url: "/technologies/react.svg" },
     { name: "NextJS", url: "/technologies/nextjs.svg" },
@@ -65,9 +68,10 @@ export const experience = [
     status: "Working",
     technologies: [
       { name: "React", url: "/technologies/react.svg" },
+      { name: "NextJS", url: "/technologies/nextjs.svg" },
       { name: "TypeScript", url: "/technologies/typescript.svg" },
-      { name: "Redis", url: "/technologies/redis.svg" },
-      { name: "Zustand", url: "/technologies/zustand.svg" },
+      { name: "TailwindCSS", url: "/technologies/tailwind.svg" },
+      { name: "NodeJS", url: "/technologies/nodejs.svg" }
     ],
     achievements: [
       "Scaled platform throughput by enabling 4x faster VM restart recovery using optimized Redux state, async API handling, and efficient state updates, contributing to seamless onboarding for 200K+ customers.",
@@ -85,11 +89,11 @@ export const experience = [
     endDate: "Dec 2023",
     location: "New Delhi",
     companyWebsite: "https://www.iiitd.ac.in/",
-    companyLogo: "", // Optional: Add /companies/iiitd.png
+    companyLogo: "/companies/IIITD.jpg", // Optional: Add /companies/iiitd.png
     status: "Completed",
     technologies: [
-      { name: "Generative AI", url: "/technologies/mistral-ai.svg" }, // Assuming mistral icon for AI as placeholder
-      { name: "Prompt Eng", url: "/technologies/javascript.svg" },
+      { name: "Gen AI", url: "/technologies/gen_ai.png" }, // Assuming mistral icon for AI as placeholder
+      { name: "GPT 2", url: "/technologies/GPT.png" },
     ],
     achievements: [
       "Introduced an AI-powered recipe generation system using GPT-2 with prompt engineering for cuisine-based personalization.",
@@ -112,12 +116,12 @@ export const projects = [
       { name: "Vercel", url: "/technologies/vercel.svg" },
     ],
     website: "https://collab-canvas-weld.vercel.app/",
-    github: "https://github.com",
+    github: "https://github.com/Aryan972/collab-canvas",
     status: "Completed",
   },
   {
     name: "Cloud Resource Cleanup Tool",
-    image: "/projects/cloud-cleanup.png", // Make sure to add this image in public/projects/
+    image: "/technologies/resource-cleanup-img.jpeg", // Make sure to add this image in public/projects/
     description:
       "An AI-driven dashboard analyzing VM usage metrics to detect underutilized resources. Integrated Slack webhook alerting and approval workflows into a Jenkins CI/CD pipeline.",
     tools: [
@@ -133,7 +137,7 @@ export const projects = [
 ];
 
 // Note: Update totalProjects in Projects.tsx if you add/remove projects
-export const totalProjects = projects.length; // Total count displayed
+export const totalProjects = projects.length - 1; // Total count displayed
 
 // ==================== TECH STACK ====================
 export const techStack = [
@@ -162,7 +166,7 @@ export const techStack = [
     items: [
       { name: "nodejs", path: "nodejs" },
       { name: "mongodb", path: "mongodb" },
-      { name: "mysql", path: "mongodb" }, // fallback
+      { name: "mysql", path: "mysql" }, // fallback
     ],
   },
   {
@@ -170,15 +174,13 @@ export const techStack = [
     items: [
       { name: "git", path: "github" },
       { name: "github", path: "github" },
-      { name: "cypress", path: "json-schema" }, // fallback
+      { name: "cypress", path: "cypress" }, // fallback
       { name: "vscode", path: "vscode" },
       { name: "vercel", path: "vercel" },
       { name: "vitejs", path: "vitejs" },
       { name: "linux", path: "linux" },
       { name: "authjs", path: "authjs" },
       { name: "copilot", path: "copilot" },
-      { name: "discord", path: "discord" },
-      { name: "shopify", path: "shopify" },
     ],
   },
 ];
