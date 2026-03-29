@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   title: "Abhishek Nigam - Portfolio Website",
   description: "Portfolio website of Abhishek Nigam, a Frontend Developer.",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 
