@@ -11,6 +11,7 @@ export const personalInfo = {
   email: "nigamabhishek1502@gmail.com",
   profileImage: "/profile.jpg", // Path to your profile image in public folder
   currentYear: new Date().getFullYear(),
+  contactNumber: "+91 9716905836"
 };
 
 // ==================== SOCIAL LINKS ====================
@@ -92,8 +93,11 @@ export const experience = [
     companyLogo: "/companies/IIITD.jpg", // Optional: Add /companies/iiitd.png
     status: "Completed",
     technologies: [
-      { name: "Gen AI", url: "/technologies/gen_ai.png" }, // Assuming mistral icon for AI as placeholder
+      { name: "Generative AI", url: "/technologies/gen_ai.png" }, // Assuming mistral icon for AI as placeholder
       { name: "GPT 2", url: "/technologies/GPT.png" },
+      { name: "React", url: "/technologies/react.svg" },
+      { name: "TailwindCSS", url: "/technologies/tailwind.svg" },
+      { name: "NodeJS", url: "/technologies/nodejs.svg" }
     ],
     achievements: [
       "Introduced an AI-powered recipe generation system using GPT-2 with prompt engineering for cuisine-based personalization.",
@@ -120,7 +124,7 @@ export const projects = [
     status: "Completed",
   },
   {
-    name: "Cloud Resource Cleanup Tool",
+    name: "Infra Optimiser",
     image: "/technologies/resource-cleanup-img.jpeg", // Make sure to add this image in public/projects/
     description:
       "An AI-driven dashboard analyzing VM usage metrics to detect underutilized resources. Integrated Slack webhook alerting and approval workflows into a Jenkins CI/CD pipeline.",
@@ -147,8 +151,8 @@ export const techStack = [
       { name: "javascript", path: "javascript" },
       { name: "typescript", path: "typescript" },
       { name: "c++", path: "c-plusplus" },
+      { name: "sql", path: "json-scheme" },
       { name: "java", path: "java" },
-      { name: "sql", path: "json-schema" }, // using json-schema icon as fallback for sql
       { name: "html5", path: "html5" },
     ],
   },
@@ -157,8 +161,11 @@ export const techStack = [
     items: [
       { name: "reactjs", path: "react" },
       { name: "nextjs", path: "nextjs" },
+      { name: "nodejs", path: "nodejs" },
+      { name: "mongodb", path: "mongodb" },
+      { name: "mysql", path: "mysql" },
       { name: "tailwindcss", path: "tailwind" },
-      { name: "webpack", path: "npm" }, // using npm icon as fallback for webpack
+      { name: "rest api", path: "postman" },
     ],
   },
   {
@@ -181,8 +188,35 @@ export const techStack = [
       { name: "linux", path: "linux" },
       { name: "authjs", path: "authjs" },
       { name: "copilot", path: "copilot" },
+      { name: "discord", path: "discord" },
+      { name: "authjs", path: "authjs" },
     ],
   },
+];
+
+// ==================== ACHIEVEMENTS ====================
+export const achievements = [
+  {
+    title: "U.S. Patent",
+    detail: "AI-driven adaptive virtual machine placement",
+    subDetail: "Application No: 19350188",
+    link: "https://github.com/Aryan972/ai-adaptive-vm-placement-patent", // GitHub Link
+    type: "github"
+  },
+  {
+    title: "Certifications",
+    detail: "Azure Data Fundamentals DP-900 (Microsoft), Google Analytics (Google)",
+    subDetail: "Verified professional certifications",
+    link: "https://drive.google.com/file/d/1FqcLdPp-kwovpJ-hrCw0z1UICbO1G98y/view?usp=sharing", // Drive Link
+    type: "drive"
+  },
+  {
+    title: "GATE Score",
+    detail: "Qualified GATE 2021 & 2022",
+    subDetail: "Computer Science & Engineering",
+    link: "https://drive.google.com/file/d/1EtLjj1PqFHKbsp1bTkNaI0FtLXy5i1L0/view?usp=drive_link", // Drive Link
+    type: "drive"
+  }
 ];
 
 // ==================== FOOTER ====================

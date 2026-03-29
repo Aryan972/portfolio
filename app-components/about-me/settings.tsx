@@ -10,7 +10,7 @@ const questions = [
     { name: "Full Name", value: "Abhishek Nigam" },
     { name: "Contact", value: "nigamabhishek1502@gmail.com" },
     { name: "Location", value: "Bengaluru, Karnataka, India" },
-    { name: "College", value: "IIIT Delhi" },
+    { name: "Contact", value: "+91 9716905836" },
 ];
 
 const Setting = () => {
@@ -31,7 +31,7 @@ const Setting = () => {
                             <div key={index} className='flex flex-col gap-1'>
                                 <div className='flex justify-between items-center'>
                                     <h1 className='text-primary'>{question.name}</h1>
-                                    {question.name === 'Contact' && (
+                                    {(question.name === "Contact") && (
                                         <CopyButton data={question.value} />
                                     )}
                                 </div>

@@ -4,7 +4,7 @@ import AboutMe from "@/app-components/about-me/about-me";
 import Experience from "@/app-components/experience/experience";
 import Footer from "@/app-components/footer/footer";
 import GitHubCalendarComp from "@/app-components/github-calender";
-import Hobbies from "@/app-components/hobbies/hobbies";
+import Achievements from "@/app-components/achievements/achievements";
 import ProfileSection from "@/app-components/profile/profile";
 import Social from "@/app-components/socials/social";
 import TechStack from "@/app-components/tech-stack/tech-stack";
@@ -37,7 +37,7 @@ export default function Home() {
     <>
       <ReactLenis root />
       <UserCommandBox />
-      <div className="w-screen lg:container lg:mx-auto lg:max-w-4xl min-h-[calc(100vh-80px)] px-5 lg:px-8 my-5 md:my-10 font-poppins z-10">
+      <div className="w-screen lg:container lg:mx-auto lg:max-w-4xl min-h-[calc(100vh-80px)] px-5 lg:px-8 pt-20 my-5 md:my-10 font-poppins z-10">
         <ProfileSection />
         <AboutMe />
         <Social />
@@ -50,7 +50,7 @@ export default function Home() {
         <LineDivider />
         <TechStack />
         <LineDivider />
-        <Hobbies />
+        <Achievements />
         <LineDivider />
         <Footer />
         <div className="pointer-events-none fixed bottom-0 left-0 right-0 h-24 

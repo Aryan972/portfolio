@@ -45,9 +45,9 @@ const Experience = () => {
               </div>
               
               {exp.technologies && exp.technologies.length > 0 && (
-                <div className="mt-2">
-                  <h1 className="md:text-lg font-bold mb-2">Tools & Technologies used</h1>
-                  <div className="flex flex-wrap">
+                <div className="mt-2 flex flex-wrap items-center gap-2">
+                  <span className="text-sm md:text-base text-gray-500">Tools & Technologies used:</span>
+                  <div className="flex flex-wrap items-center">
                     <LanguageBox data={exp.technologies} />
                   </div>
                 </div>

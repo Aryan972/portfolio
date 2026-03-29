@@ -9,14 +9,15 @@ const Navbar = () => {
     { name: "My Stack", href: "/#stack" },
     { name: "Projects", href: "/#projects" },
     { name: "Experience", href: "/#experience" },
-    { name: "Components", href: "/components" },
+    { name: "Achievements", href: "/#achievements" },
   ];
 
   return (
-    <div className="container mx-auto max-w-4xl flex justify-between items-center font-poppins sticky top-0 z-50 px-6 py-5 backdrop-blur-sm">
+    <div className="fixed top-0 left-0 right-0 z-[100] border-b border-dashed bg-background/70 backdrop-blur-md">
+      <div className="container mx-auto max-w-4xl flex justify-between items-center font-poppins px-6 py-4">
         <div className="flex items-end gap-5">
           <Profile className="rounded-lg h-10 w-10" />
-          <ul className="items-center gap-5 hidden lg:flex">
+          <ul className="items-center gap-5 hidden md:flex">
             {navItems.map((item, index) => (
               <Link
                 key={index}
@@ -32,6 +33,7 @@ const Navbar = () => {
           <UserCommandButton />
           <ModeToogle />
         </div>
+      </div>
     </div>
   )
 }
