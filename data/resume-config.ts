@@ -40,7 +40,7 @@ export const aboutMe = {
     link: "https://collab-canvas-weld.vercel.app/", //live/github link
   },
   intro:
-    "Software Engineer with 2.3+ years of experience building scalable, high-performance, and responsive web applications. Specialized in React.js and Next.js, with a strong focus on performance optimization, accessibility, and clean system design.",
+    "Software Engineer with 2.4+ years of experience building scalable, high-performance, and responsive web applications. Specialized in React.js and Next.js, with a strong focus on performance optimization, accessibility, and clean system design.",
 
   focusArea: "frontend",
 
