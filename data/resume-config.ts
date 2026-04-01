@@ -129,7 +129,7 @@ export const projects = [
     description:
       "An AI-driven dashboard analyzing VM usage metrics to detect underutilized resources. Integrated Slack webhook alerting and approval workflows into a Jenkins CI/CD pipeline.",
     tools: [
-      { name: "React", url: "/technologies/react.svg" },
+      { name: "NextJS", url: "/technologies/nextjs.svg" },
       { name: "JavaScript", url: "/technologies/javascript.svg" },
       { name: "MongoDB", url: "/technologies/mongodb.svg" },
       { name: "NodeJS", url: "/technologies/nodejs.svg" },
