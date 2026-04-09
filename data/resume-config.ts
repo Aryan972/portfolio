@@ -7,7 +7,7 @@
 export const personalInfo = {
   fullName: "ABHISHEK NIGAM",
   profileName: "Abhishek Nigam", // Name shown in profile tooltip
-  footerDisplayName: ["Abhishek Nigam", "Software Engineer", "Frontend Developer"], // Random selection in footer
+  footerDisplayName: ["Abhishek Nigam", "Fullstack Engineer", "Frontend Engineer"], // Random selection in footer
   email: "nigamabhishek1502@gmail.com",
   profileImage: "/profile.jpg", // Path to your profile image in public folder
   currentYear: new Date().getFullYear(),
@@ -40,7 +40,7 @@ export const aboutMe = {
     link: "https://collab-canvas-weld.vercel.app/", //live/github link
   },
   intro:
-    "Software Engineer with 2.4+ years of experience building scalable, high-performance, and responsive web applications. Specialized in React.js and Next.js, with a strong focus on performance optimization, accessibility, and clean system design.",
+    "Frontend Engineer with 2.4+ years of experience building scalable, high-performance, and responsive web applications. Specialized in React.js and Next.js, with a strong focus on performance optimization, accessibility, and clean system design.",
 
   focusArea: "frontend",
 
@@ -60,7 +60,7 @@ export const aboutMe = {
 export const experience = [
   {
     company: "IBM",
-    position: "Software Engineer",
+    position: "Frontend Engineer",
     startDate: "Jan 2024",
     endDate: "Present",
     location: "Bengaluru",
@@ -124,7 +124,7 @@ export const projects = [
     status: "Completed",
   },
   {
-    name: "Infra Optimiser",
+    name: "Infra Optimizer",
     image: "/technologies/resource-cleanup-img.jpeg", // Make sure to add this image in public/projects/
     description:
       "An AI-driven dashboard analyzing VM usage metrics to detect underutilized resources. Integrated Slack webhook alerting and approval workflows into a Jenkins CI/CD pipeline.",
