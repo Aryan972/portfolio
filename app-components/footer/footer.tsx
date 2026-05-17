@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const Footer = () => {
   const [name] = useState(() =>
-    Math.round(Math.random()) % 2 === 0 ? "Abhishek Nigam" : "Frontend Developer"
+    Math.round(Math.random()) % 2 === 0 ? "Abhishek Nigam" : "FullStack Developer"
   );
 
   return (
