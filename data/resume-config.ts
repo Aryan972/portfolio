@@ -7,7 +7,7 @@
 export const personalInfo = {
   fullName: "ABHISHEK NIGAM",
   profileName: "Abhishek Nigam", // Name shown in profile tooltip
-  footerDisplayName: ["Abhishek Nigam", "Fullstack Engineer", "Frontend Engineer"], // Random selection in footer
+  footerDisplayName: ["Abhishek Nigam", "Full Stack Engineer", "Frontend Engineer"], // Random selection in footer
   email: "nigamabhishek1502@gmail.com",
   profileImage: "/profile.jpg", // Path to your profile image in public folder
   currentYear: new Date().getFullYear(),
@@ -40,9 +40,9 @@ export const aboutMe = {
     link: "https://collab-canvas-weld.vercel.app/", //live/github link
   },
   intro:
-    "Frontend Engineer with 2.4+ years of experience building scalable, high-performance, and responsive web applications. Specialized in React.js and Next.js, with a strong focus on performance optimization, accessibility, and clean system design.",
+    "Full Stack Engineer with 2.5+ years of experience building scalable, high-performance, and responsive web applications. Specialized in React.js and Next.js, with a strong focus on performance optimization, accessibility, and clean system design.",
 
-  focusArea: "frontend",
+  focusArea: "FullStack",
 
   focusDescription:
     "Along with frontend development, I have hands-on experience with backend technologies such as Node.js and REST APIs. I hold a Master's Degree(M.Tech) in Computer Science, solved 350+ LeetCode problems, and filed a U.S. patent for AI/ML-driven cloud optimization systems.",
@@ -60,7 +60,7 @@ export const aboutMe = {
 export const experience = [
   {
     company: "IBM",
-    position: "Frontend Engineer",
+    position: "Full Stack Software Engineer",
     startDate: "Jan 2024",
     endDate: "Present",
     location: "Bengaluru",
